@@ -1,0 +1,36 @@
+{
+	"actors":	[{
+			"actors":	[],
+			"base_class_name":	"ufo::Sprite",
+			"class_name":	"ufo::Sprite",
+			"colour":	[255, 255, 255, 255],
+			"custom_editor_properties":	{
+			},
+			"frame_index":	0,
+			"frame_size_x":	16,
+			"frame_size_y":	16,
+			"import_mode":	2,
+			"is_imported":	0,
+			"key":	"res/gfx/woodbox.png",
+			"name":	"Main",
+			"offset_x":	0,
+			"offset_y":	0,
+			"rotation":	0,
+			"scale_x":	1,
+			"scale_y":	1,
+			"x":	0,
+			"y":	0
+		}],
+	"base_class_name":	"ufo::Level",
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"import_mode":	2,
+	"is_imported":	0,
+	"name":	"Root",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

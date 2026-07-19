@@ -1,0 +1,15 @@
+{
+	"actors":	[],
+	"base_class_name":	"Level",
+	"class_name":	"Level",
+	"custom_editor_properties":	{
+	},
+	"import_mode":	2,
+	"is_imported":	0,
+	"name":	"@InstanceActor264",
+	"size_x":	2000,
+	"size_y":	560,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

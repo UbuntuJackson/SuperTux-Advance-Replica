@@ -1,0 +1,898 @@
+{
+    "contents": [
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "A checkpoint, you respawn here when you die."
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/check_point.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "CheckPoint",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [],
+                "header_file": "src/check_point.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "1 Coin"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/coin.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "Coin",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [],
+                "header_file": "src/coin.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_hide_from_editor",
+                    "args": []
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/dead_tux.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "DeadTux",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "a",
+                            "data_type": "bool",
+                            "variable_value": "0"
+                        }
+                    ],
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "b",
+                            "data_type": "std::string",
+                            "variable_value": "George"
+                        }
+                    ],
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "c",
+                            "data_type": "float",
+                            "variable_value": "567.0"
+                        }
+                    ],
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "d",
+                            "data_type": "int",
+                            "variable_value": "99"
+                        }
+                    ]
+                ],
+                "header_file": "src/dead_tux.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_hide_from_editor",
+                    "args": []
+                },
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "The fireball that tux spawns when fire powerup"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/fire_ball.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "FireBall",
+                "extends": [
+                    "custom::PlatformerRectangleCollision"
+                ],
+                "members": [],
+                "header_file": "src/fire_ball.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Gives Tux the power to spit fire!"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/fire_flower.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "FireFlower",
+                "extends": [
+                    "custom::PlatformerRectangleCollision"
+                ],
+                "members": [],
+                "header_file": "src/fire_flower.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_hide_from_editor",
+                    "args": []
+                },
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Flame effect when fire ball hits things"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/flame_effect.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "FlameEffect",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [],
+                "header_file": "src/flame_effect.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "An object used to select the first level without recompiling"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "GameStart",
+                "extends": [
+                    "ufo::Actor"
+                ],
+                "members": [
+                    [
+                        [
+                            {
+                                "name": "ufo_alias",
+                                "args": [
+                                    "Start Level"
+                                ]
+                            },
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "start_level",
+                            "data_type": "std::string",
+                            "variable_value": "../overworld.ason"
+                        }
+                    ]
+                ],
+                "header_file": "src/game_start.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "The iceball that tux spawns when ice powerup"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/ice_ball.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "IceBall",
+                "extends": [
+                    "custom::PlatformerRectangleCollision"
+                ],
+                "members": [],
+                "header_file": "src/ice_ball.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Non-smart ice cap. Walks off ledges."
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/ice_cap.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "IceCap",
+                "extends": [
+                    "ufo::PlatformerRectangleCollision"
+                ],
+                "members": [
+                    [
+                        [
+                            {
+                                "name": "ufo_alias",
+                                "args": [
+                                    "Smart"
+                                ]
+                            },
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "smart",
+                            "data_type": "bool",
+                            "variable_value": "0"
+                        }
+                    ],
+                    [
+                        [
+                            {
+                                "name": "ufo_float_slider",
+                                "args": [
+                                    "-10.0",
+                                    "10.0",
+                                    "0.1"
+                                ]
+                            }
+                        ],
+                        {
+                            "name": "f",
+                            "data_type": "float",
+                            "variable_value": "-1.0"
+                        }
+                    ],
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "name",
+                            "data_type": "std::string",
+                            "variable_value": ""
+                        }
+                    ],
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "direction",
+                            "data_type": "float",
+                            "variable_value": "-1.0"
+                        }
+                    ]
+                ],
+                "header_file": "src/ice_cap.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "IceCrusher."
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/ice_crusher.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "IceCrusher",
+                "extends": [
+                    "ufo::PlatformerRectangleCollision"
+                ],
+                "members": [],
+                "header_file": "src/ice_crusher.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Gives Tux the power to spit fire!"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/ice_flower.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "IceFlower",
+                "extends": [
+                    "custom::PlatformerRectangleCollision"
+                ],
+                "members": [],
+                "header_file": "src/ice_flower.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "If you hit this block, you get an item!"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/item_box.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "ItemBox",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "item",
+                            "data_type": "std::string",
+                            "variable_value": ""
+                        }
+                    ]
+                ],
+                "header_file": "src/item_box.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                },
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "It's a key to remove those weird key blocks"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/key.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_class",
+                    "args": []
+                }
+            ],
+            "class": {
+                "name": "Key",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [],
+                "header_file": "src/key.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "LevelGoalTrigger",
+                "extends": [
+                    "ufo::RectangularArea"
+                ],
+                "members": [],
+                "header_file": "src/level_goal_trigger.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "Test"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "test::LevelTransitionTrigger",
+                "extends": [
+                    "ufo::Actor"
+                ],
+                "members": [
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            },
+                            {
+                                "name": "ufo_alias",
+                                "args": [
+                                    "Level Path"
+                                ]
+                            }
+                        ],
+                        {
+                            "name": "level_path",
+                            "data_type": "std::string",
+                            "variable_value": ""
+                        }
+                    ]
+                ],
+                "header_file": "src/level_transition_trigger.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/main_menu.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Main menu object"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "MainMenu",
+                "extends": [
+                    "ufo::Widget"
+                ],
+                "members": [],
+                "header_file": "src/main_menu.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "Test"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "test::MiddleMan",
+                "extends": [
+                    "ufo::Actor"
+                ],
+                "members": [],
+                "header_file": "src/middle_man.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/pause_menu.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Menu that appears when pausing."
+                    ]
+                }
+            ],
+            "class": {
+                "name": "PauseMenu",
+                "extends": [
+                    "ufo::Widget"
+                ],
+                "members": [],
+                "header_file": "src/pause_menu.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Collision class for simple tile-based platformers."
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "custom::PlatformerRectangleCollision",
+                "extends": [
+                    "test::MiddleMan"
+                ],
+                "members": [],
+                "header_file": "src/platformer_rectangle_collision.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Player represented on the worldmap"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/player_overworld.ason"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "PlayerOverworld",
+                "extends": [
+                    "ufo::Actor"
+                ],
+                "members": [],
+                "header_file": "src/player_overworld.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_hide_from_editor",
+                    "args": []
+                },
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "The effect that plays when Tux gets a power-up"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/power_up_effect.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "PowerUpEffect",
+                "extends": [
+                    "ufo::Animation"
+                ],
+                "members": [],
+                "header_file": "src/power_up_effect.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "Custom TileMap class"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/sta_tile_map.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "STA_TileMap",
+                "extends": [
+                    "ufo::TileMap"
+                ],
+                "members": [],
+                "header_file": "src/sta_tile_map.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "This is the player object"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/tux.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "Tux",
+                "extends": [
+                    "custom::PlatformerRectangleCollision"
+                ],
+                "members": [],
+                "header_file": "src/tux.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_comment",
+                    "args": [
+                        "If you hit this block, you get an item!"
+                    ]
+                },
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/wood_box.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "WoodBox",
+                "extends": [
+                    "ufo::Sprite"
+                ],
+                "members": [],
+                "header_file": "src/wood_box.ufo.h"
+            }
+        },
+        {
+            "macros": [
+                {
+                    "name": "ufo_actor_config",
+                    "args": [
+                        "src/world_map_level.ason"
+                    ]
+                },
+                {
+                    "name": "ufo_category",
+                    "args": [
+                        "STA-Replica"
+                    ]
+                }
+            ],
+            "class": {
+                "name": "WorldMapLevel",
+                "extends": [
+                    "ufo::Sprite"
+                ],
+                "members": [
+                    [
+                        [
+                            {
+                                "name": "ufo_variable",
+                                "args": []
+                            }
+                        ],
+                        {
+                            "name": "level_path",
+                            "data_type": "std::string",
+                            "variable_value": ""
+                        }
+                    ]
+                ],
+                "header_file": "src/world_map_level.ufo.h"
+            }
+        }
+    ]
+}

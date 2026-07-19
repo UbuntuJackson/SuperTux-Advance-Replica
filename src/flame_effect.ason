@@ -1,0 +1,45 @@
+{
+	"actors":	[{
+			"actors":	[],
+			"class_name":	"ufo::Animation",
+			"costumes":	[{
+					"animation_speed":	0,
+					"frame_index":	0,
+					"frame_size_x":	32,
+					"frame_size_y":	32,
+					"key":	"placeholder_icon",
+					"offset_x":	0,
+					"offset_y":	0,
+					"rotation":	0,
+					"scale_x":	1,
+					"scale_y":	1
+				}, {
+					"animation_speed":	16,
+					"frame_index":	0,
+					"frame_size_x":	14,
+					"frame_size_y":	20,
+					"key":	"res/gfx/flame.png",
+					"offset_x":	0,
+					"offset_y":	0,
+					"rotation":	0,
+					"scale_x":	1,
+					"scale_y":	1
+				}],
+			"current_costume":	"res/gfx/flame.png",
+			"custom_editor_properties":	{
+			},
+			"name":	"Main",
+			"preview":	1,
+			"x":	0,
+			"y":	0
+		}],
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"name":	"@Instanceufo::Actor496",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

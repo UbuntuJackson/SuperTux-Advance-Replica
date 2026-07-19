@@ -1,0 +1,53 @@
+{
+	"actors":	[{
+			"actors":	[],
+			"class_name":	"ufo::Animation",
+			"costumes":	[{
+					"animation_speed":	10,
+					"frame_index":	0,
+					"frame_size_x":	16,
+					"frame_size_y":	16,
+					"key":	"res/gfx/key-gold.png",
+					"offset_x":	0,
+					"offset_y":	0,
+					"rotation":	0,
+					"scale_x":	1,
+					"scale_y":	1
+				}, {
+					"animation_speed":	0,
+					"frame_index":	0,
+					"frame_size_x":	32,
+					"frame_size_y":	32,
+					"key":	"placeholder_icon",
+					"offset_x":	0,
+					"offset_y":	0,
+					"rotation":	0,
+					"scale_x":	1,
+					"scale_y":	1
+				}],
+			"current_costume":	"res/gfx/key-gold.png",
+			"custom_editor_properties":	{
+			},
+			"editor_hitbox":	{
+				"height":	16,
+				"width":	16,
+				"x":	0,
+				"y":	0
+			},
+			"name":	"Main",
+			"preview":	1,
+			"shader_key":	"partial_sprite_shader",
+			"tint":	[255, 255, 255, 255],
+			"x":	0,
+			"y":	0
+		}],
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"name":	"@Instanceufo::Actor720",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

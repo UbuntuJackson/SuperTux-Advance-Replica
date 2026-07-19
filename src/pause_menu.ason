@@ -1,0 +1,62 @@
+{
+	"actors":	[{
+			"actors":	[{
+					"actors":	[],
+					"base_class_name":	"ufo::Button",
+					"class_name":	"ufo::Button",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"is_wrapping":	0,
+					"language_to_text":	{
+						"English":	"Resume"
+					},
+					"name":	"InstButtonResume",
+					"x":	58.0086669921875,
+					"y":	-23.054443359375
+				}, {
+					"actors":	[],
+					"base_class_name":	"ufo::Button",
+					"class_name":	"ufo::Button",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"is_wrapping":	0,
+					"language_to_text":	{
+						"English":	"Exit"
+					},
+					"name":	"InstButtonExit",
+					"x":	71.301055908203125,
+					"y":	75.74542236328125
+				}],
+			"base_class_name":	"ufo::Widget",
+			"class_name":	"ufo::Widget",
+			"custom_editor_properties":	{
+			},
+			"import_mode":	2,
+			"is_imported":	0,
+			"name":	"Main",
+			"rectangle":	{
+				"h":	346.70608520507812,
+				"w":	542.58197021484375,
+				"x":	-223.56674194335938,
+				"y":	-203.47416687011719
+			},
+			"x":	388.72637939453125,
+			"y":	346.13787841796875
+		}],
+	"base_class_name":	"ufo::Level",
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"import_mode":	2,
+	"is_imported":	0,
+	"name":	"@InstanceActor4",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

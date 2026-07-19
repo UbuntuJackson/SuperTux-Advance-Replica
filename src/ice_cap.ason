@@ -1,0 +1,70 @@
+{
+	"actors":	[{
+			"actors":	[{
+					"actors":	[],
+					"class_name":	"ufo::Animation",
+					"costumes":	[{
+							"animation_speed":	10,
+							"frame_index":	0,
+							"frame_size_x":	16,
+							"frame_size_y":	16,
+							"key":	"res/gfx/ice_cap_anim/ice_cap_walk.png",
+							"offset_x":	8,
+							"offset_y":	8,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}, {
+							"animation_speed":	5,
+							"frame_index":	0,
+							"frame_size_x":	16,
+							"frame_size_y":	16,
+							"key":	"res/gfx/ice_cap_anim/ice_cap_squish.png",
+							"offset_x":	0,
+							"offset_y":	0,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}, {
+							"animation_speed":	0,
+							"frame_index":	0,
+							"frame_size_x":	32,
+							"frame_size_y":	32,
+							"key":	"placeholder_icon",
+							"offset_x":	0,
+							"offset_y":	0,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}],
+					"current_costume":	"res/gfx/ice_cap_anim/ice_cap_walk.png",
+					"custom_editor_properties":	{
+					},
+					"name":	"InstanceAnim",
+					"preview":	1,
+					"x":	-1.1043949127197266,
+					"y":	-2.1638836860656738
+				}],
+			"class_name":	"ufo::PlatformerRectangleCollision",
+			"custom_editor_properties":	{
+			},
+			"editor_hitbox":	{
+				"height":	12.5983190536499,
+				"width":	9.79124164581299,
+				"x":	-5.58746337890625,
+				"y":	-7.93598747253418
+			},
+			"name":	"Main",
+			"x":	6.1222343444824219,
+			"y":	2.5975019931793213
+		}],
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"name":	"@InstanceActor69",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

@@ -1,0 +1,133 @@
+{
+    "activeFile": "map/u-ice.json",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "map/0-0.json": {
+            "scale": 0.221435546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1711.5589856670342,
+                "y": -164.8335170893056
+            }
+        },
+        "map/0-0.json#actors": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#goal": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#grass": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#icecave": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#igloo": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#new snow tileset 2": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#pipes": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#sign": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#snow": {
+            "scaleInDock": 1
+        },
+        "map/0-0.json#solid": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json": {
+            "scale": 2,
+            "selectedLayer": 8,
+            "viewCenter": {
+                "x": 279.5,
+                "y": 325.25
+            }
+        },
+        "map/u-ice.json#actors": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#goal": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#grass": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#icecave": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#igloo": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#new snow tileset 2": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#pipes": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#snow": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#solid": {
+            "scaleInDock": 1
+        },
+        "map/u-ice.json#woodplat": {
+            "scaleInDock": 1
+        },
+        "u-ice.json": {
+            "scale": 0.221435546875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4001.1642778390296,
+                "y": 241.60529217199542
+            }
+        },
+        "u-ice.json#actors": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#goal": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#grass": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#icecave": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#igloo": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#new snow tileset 2": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#pingus_actor_sheet": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#pipes": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#snow": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#solid": {
+            "scaleInDock": 1
+        },
+        "u-ice.json#woodplat": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+        "map/u-ice.json"
+    ],
+    "project": "tiled_resources.tiled-project",
+    "recentFiles": [
+        "map/u-ice.json",
+        "map/0-0.json",
+        "u-ice.json"
+    ]
+}

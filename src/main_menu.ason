@@ -1,0 +1,92 @@
+{
+	"actors":	[{
+			"actors":	[{
+					"actors":	[],
+					"base_class_name":	"ufo::Button",
+					"class_name":	"ufo::Button",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"is_wrapping":	0,
+					"language_to_text":	{
+						"English":	"New Game"
+					},
+					"name":	"InstButtonNewGame",
+					"x":	1.897918701171875,
+					"y":	-39.519287109375
+				}, {
+					"actors":	[],
+					"base_class_name":	"ufo::Button",
+					"class_name":	"ufo::Button",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"is_wrapping":	0,
+					"language_to_text":	{
+						"English":	"Load Game"
+					},
+					"name":	"InstButtonLoadGame",
+					"x":	2.09539794921875,
+					"y":	15.170669555664062
+				}, {
+					"actors":	[],
+					"base_class_name":	"ufo::Button",
+					"class_name":	"ufo::Button",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"is_wrapping":	0,
+					"language_to_text":	{
+						"English":	"Options"
+					},
+					"name":	"InstButtonOptions",
+					"x":	-43.32232666015625,
+					"y":	134.2574462890625
+				}, {
+					"actors":	[],
+					"base_class_name":	"ufo::Button",
+					"class_name":	"ufo::Button",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"is_wrapping":	0,
+					"language_to_text":	{
+						"English":	"Quit"
+					},
+					"name":	"InstButtonQuit",
+					"x":	0,
+					"y":	0
+				}],
+			"base_class_name":	"ufo::Widget",
+			"class_name":	"ufo::Widget",
+			"custom_editor_properties":	{
+			},
+			"import_mode":	2,
+			"is_imported":	0,
+			"name":	"Main",
+			"rectangle":	{
+				"h":	179.13125610351562,
+				"w":	633.7269287109375,
+				"x":	-33.72674560546875,
+				"y":	20.868743896484375
+			},
+			"x":	354.332763671875,
+			"y":	318.24200439453125
+		}],
+	"base_class_name":	"Level",
+	"class_name":	"Level",
+	"custom_editor_properties":	{
+	},
+	"import_mode":	2,
+	"is_imported":	0,
+	"name":	"@InstanceActor4",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

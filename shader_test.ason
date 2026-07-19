@@ -1,0 +1,30 @@
+{
+	"actors":	[{
+			"actors":	[],
+			"class_name":	"ufo::Sprite",
+			"colour":	[255, 255, 255, 255],
+			"custom_editor_properties":	{
+			},
+			"frame_index":	0,
+			"frame_size_x":	32,
+			"frame_size_y":	32,
+			"key":	"placeholder_icon",
+			"name":	"ufo::Sprite0",
+			"offset_x":	0,
+			"offset_y":	0,
+			"rotation":	0,
+			"scale_x":	1,
+			"scale_y":	1,
+			"x":	0,
+			"y":	0
+		}],
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"name":	"@Instanceufo::Actor2",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

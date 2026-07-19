@@ -1,0 +1,75 @@
+{
+	"actors":	[{
+			"actors":	[{
+					"actors":	[],
+					"base_class_name":	"ufo::Animation",
+					"class_name":	"ufo::Animation",
+					"costumes":	[{
+							"animation_speed":	8,
+							"frame_index":	0,
+							"frame_size_x":	14,
+							"frame_size_y":	17,
+							"key":	"res/gfx/tuxO.png",
+							"offset_x":	8,
+							"offset_y":	8,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}, {
+							"animation_speed":	0,
+							"frame_index":	0,
+							"frame_size_x":	32,
+							"frame_size_y":	32,
+							"key":	"placeholder_icon",
+							"offset_x":	0,
+							"offset_y":	0,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}],
+					"current_costume":	"res/gfx/tuxO.png",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"name":	"InstAnim",
+					"preview":	1,
+					"x":	0,
+					"y":	0
+				}, {
+					"actors":	[],
+					"base_class_name":	"ufo::Camera",
+					"clamp":	1,
+					"class_name":	"ufo::Camera",
+					"custom_editor_properties":	{
+					},
+					"import_mode":	2,
+					"is_imported":	0,
+					"name":	"InstCamera",
+					"scale":	4,
+					"x":	8,
+					"y":	8
+				}],
+			"base_class_name":	"ufo::Actor",
+			"class_name":	"ufo::Actor",
+			"custom_editor_properties":	{
+			},
+			"import_mode":	2,
+			"is_imported":	0,
+			"name":	"Main",
+			"x":	0,
+			"y":	0
+		}],
+	"base_class_name":	"ufo::Level",
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"import_mode":	2,
+	"is_imported":	0,
+	"name":	"@InstanceActor2936",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

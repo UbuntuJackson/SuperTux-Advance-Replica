@@ -1,0 +1,26 @@
+{
+	"actors":	[{
+			"actors":	[],
+			"class_name":	"GameStart",
+			"custom_editor_properties":	{
+				"start_level":	{
+					"hint":	"EditorPropertyString",
+					"name":	"start_level",
+					"type":	"std::string",
+					"value":	"../0-2.ason"
+				}
+			},
+			"name":	"InstGameStartConfiguration",
+			"x":	107.47979736328125,
+			"y":	118.81190490722656
+		}],
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"name":	"InstRootStartLevel",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}

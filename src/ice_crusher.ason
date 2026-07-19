@@ -1,0 +1,59 @@
+{
+	"actors":	[{
+			"actors":	[{
+					"actors":	[],
+					"class_name":	"ufo::Animation",
+					"costumes":	[{
+							"animation_speed":	0,
+							"frame_index":	0,
+							"frame_size_x":	32,
+							"frame_size_y":	32,
+							"key":	"res/gfx/icecrusher.png",
+							"offset_x":	0,
+							"offset_y":	0,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}, {
+							"animation_speed":	0,
+							"frame_index":	0,
+							"frame_size_x":	32,
+							"frame_size_y":	32,
+							"key":	"placeholder_icon",
+							"offset_x":	0,
+							"offset_y":	0,
+							"rotation":	0,
+							"scale_x":	1,
+							"scale_y":	1
+						}],
+					"current_costume":	"res/gfx/icecrusher.png",
+					"custom_editor_properties":	{
+					},
+					"name":	"InstanceAnim",
+					"preview":	0,
+					"x":	-6.5270156860351562,
+					"y":	-1.8248281478881836
+				}],
+			"class_name":	"ufo::PlatformerRectangleCollision",
+			"custom_editor_properties":	{
+			},
+			"editor_hitbox":	{
+				"height":	29.892126083374023,
+				"width":	30.853250503540039,
+				"x":	-6,
+				"y":	-0.23495548963546753
+			},
+			"name":	"Main",
+			"x":	6.55267333984375,
+			"y":	0.62778949737548828
+		}],
+	"class_name":	"ufo::Level",
+	"custom_editor_properties":	{
+	},
+	"name":	"@Instanceufo::Actor1308",
+	"size_x":	20000,
+	"size_y":	3000,
+	"tilesets":	[],
+	"x":	0,
+	"y":	0
+}
